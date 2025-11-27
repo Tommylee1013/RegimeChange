@@ -4,10 +4,10 @@ This repository implements a **regime-switching investment strategy** inspired b
 
 ## 📄 Reference Paper
 
-- **Title**: Downside Risk Reduction Using Regime-Switching Signals: A Statistical Jump Model Approach :contentReference[oaicite:1]{index=1}  
-- **Authors**: Yizhan Shu, Chenyu Yu, John M. Mulvey :contentReference[oaicite:2]{index=2}  
-- **Journal**: Journal of Asset Management, Vol. 25, Issue 5 (2024), pp. 493–507 :contentReference[oaicite:3]{index=3}  
-- **Abstract (summary)**: The paper investigates the use of a *statistical jump model (JM)* for market-regime identification, a methodology that differs from traditional hidden Markov models by applying a “jump penalty” to discourage frequent regime switches, thereby improving regime persistence. The model uses only return-series based features (risk and return measures), selects the optimal jump penalty via time-series cross-validation directly optimizing strategy performance, and demonstrates that JM-guided strategies outperform both HMM-based strategies and simple buy-and-hold in terms of lower volatility, smaller maximum drawdown, and higher risk-adjusted returns (e.g. Sharpe ratio), over equity indices in the U.S., Germany, and Japan between 1990–2023 — even accounting for transaction costs and trading delays. :contentReference[oaicite:4]{index=4}
+- **Title**: Downside Risk Reduction Using Regime-Switching Signals: A Statistical Jump Model Approach  
+- **Authors**: Yizhan Shu, Chenyu Yu, John M. Mulvey
+- **Journal**: Journal of Asset Management, Vol. 25, Issue 5 (2024), pp. 493–507  
+- **Abstract (summary)**: The paper investigates the use of a *statistical jump model (JM)* for market-regime identification, a methodology that differs from traditional hidden Markov models by applying a “jump penalty” to discourage frequent regime switches, thereby improving regime persistence. The model uses only return-series based features (risk and return measures), selects the optimal jump penalty via time-series cross-validation directly optimizing strategy performance, and demonstrates that JM-guided strategies outperform both HMM-based strategies and simple buy-and-hold in terms of lower volatility, smaller maximum drawdown, and higher risk-adjusted returns (e.g. Sharpe ratio), over equity indices in the U.S., Germany, and Japan between 1990–2023 — even accounting for transaction costs and trading delays.
 
 ## 🧑‍💻 This Implementation
 
